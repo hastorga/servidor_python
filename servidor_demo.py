@@ -6,6 +6,8 @@ import json
 # Héctor Astorga
 # Samuel Carrasco
 
+# https://github.com/hastorga/servidor_python.git
+
 print("Servidor HTTP\n")
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
