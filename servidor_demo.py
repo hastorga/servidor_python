@@ -2,6 +2,10 @@ import socket
 import os
 import json
 
+#Integrantes:
+# Héctor Astorga
+# Samuel Carrasco
+
 print("Servidor HTTP\n")
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -56,7 +60,6 @@ while True:
         archivo.close()
 
     else:
-        print("404 archivo invalido")
         client_connection.sendall("HTTP/1.1 404 Not Found\r\n".encode())
 
     client_connection.close()
