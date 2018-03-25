@@ -3,7 +3,7 @@ import os
 import json
 
 #Integrantes:
-# Héctor Astorga
+# Hector Astorga
 # Samuel Carrasco
 
 # https://github.com/hastorga/servidor_python.git
